@@ -1,0 +1,32 @@
+body{
+    background-color: green;
+    color: azure;
+}
+.deposit{
+    background-color:green;
+    color:white ;
+    text-decoration: black;
+    margin: 10px;
+    padding: 5px;
+}
+.withdraw{
+background-color: red;
+color: azure;
+text-decoration: black;
+font-weight: 200;
+border-top-color: black;
+margin: 10px;
+padding: 5px;
+}
+.balance{
+    font-size: x-large
+    
+    justify content
+}
+.opay bank{
+font-size: larger;
+}
+.amount{
+    background-color: aqua;
+    color: azure;
+}
