@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>opay</title>
+  <link rel="stylesheet" href="opay.css" />
+</head>
+<body>
+  <h2 class="opay bank">opay bank</h2>
+  <div class="balance">Balance: $<span id="balance">1000.00</span></div>
+
+  <input type="number" id="amount" placeholder="enter amount" step="0.01" />
+  <div class="controls">
+    <button class="deposit" onclick="deposit()">Deposit</button>
+    <button class="withdraw" onclick="withdraw()">Withdraw</button>
+  </div>
+
+  <script src="opay.js"></script>
+</body>
+</html>

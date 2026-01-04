@@ -1,32 +1,13 @@
-body{
-    background-color: green;
-    color: azure;
+body {
+  font-family: Arial, sans-serif;
+  padding: 24px;
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
 }
-.deposit{
-    background-color:green;
-    color:white ;
-    text-decoration: black;
-    margin: 10px;
-    padding: 5px;
-}
-.withdraw{
-background-color: red;
-color: azure;
-text-decoration: black;
-font-weight: 200;
-border-top-color: black;
-margin: 10px;
-padding: 5px;
-}
-.balance{
-    font-size: x-large
-    
-    justify content
-}
-.opay bank{
-font-size: larger;
-}
-.amount{
-    background-color: aqua;
-    color: azure;
-}
+.opay.bank { color: #1a73e8; margin-bottom: 8px; }
+.balance { font-size: 1.25rem; margin: 12px 0; }
+input#amount { padding: 8px; width: 60%; margin-bottom: 12px; }
+.controls button { padding: 8px 14px; margin: 0 6px; cursor: pointer; }
+.deposit { background: #4caf50; color: #fff; border: none; }
+.withdraw { background: #f44336; color: #fff; border: none; }
